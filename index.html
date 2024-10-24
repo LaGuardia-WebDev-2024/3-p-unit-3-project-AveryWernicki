@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ yes ] Two External Links
+[ yes ] Table
+[ yes ] Three CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -14,47 +14,185 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-image: url(https://img.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+      }
+      h1 {
+        color: rgb(250, 250, 250);
+      }
+      h1:hover{  background-color: rgb(200, 20, 7);  }
+      h2 {
+        color: rgb(250, 250, 250);
+      }
+      ! {
+        color: rgb(250, 250, 250);
+      }
+      * {
+        color: rgb(250, 250, 250);
+      }
+      ? {
+        color: rgb(250, 250, 250);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Avery's Recipe Book</h1>
 
-<body>
+    <h2>Contents:</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <ol>
+      <li><a href="?">course #1</a></li>
 
-  <h2>Contents:</h2>
+      <li><a href="!">course #2</a></li>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+      <li><a href="*">course #3</a></li>
+    </ol>
 
-  <h2 id="?">Recipe #1</h2>
+    <h2 id="?">course one #1</h2>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <ul>
+      <li>price: $12</li>
+      <li>plus beverage: $15</li>
+    </ul>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <table>
+      <thead>
+        <tr>
+          <th>choice of</th>
+          <th>:</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <p>
+      <strong>
+        arugala salad or heirloom caprece or watermelon bruschetta</strong
+      >
+    </p>
+    <img
+      src="https://www.wellplated.com/wp-content/uploads/2015/05/The-best-grilled-steak-salad-that-you-will-ever-eat.jpg"
+      width="240"
+    />
+    <img
+      src="https://sprinkledwithbalance.com/wp-content/uploads/2023/05/burrata-caprese-5.jpg"
+      width="240"
+    />
+    <img
+      src="https://toshistable.com/wp-content/uploads/2024/07/watermelon-bruschetta-featured-image.jpg"
+      width="240"
+    />
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    <h2 id="!">course #2</h2>
 
-</body>
+    <ul>
+      <li>price: $12</li>
+      <li>plus beverage: $15</li>
+    </ul>
 
+    <table>
+      <thead>
+        <tr>
+          <th>choice of</th>
+          <th>:</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <p>
+      <strong>
+        tuscan chicken orzo or marinated beef kabab with pinapple or fried tofu
+        with a spicy garlic teriayki sauce and roasted peanuts</strong
+      >
+    </p>
+    <img
+      src="https://easychickenrecipes.com/wp-content/uploads/2024/06/tuscan-chicken-orzo-6-of-7-edited.jpg"
+      width="240"
+    />
+    <img
+      src="https://www.lecremedelacrumb.com/wp-content/uploads/2020/08/teriyaki-steak-kabobs-3sm-3.jpg"
+      width="240"
+    />
+    <img
+      src="https://homecookedroots.com/wp-content/uploads/2024/04/Crispy-Peanut-Tofu-Recipe-1.jpg"
+      width="240"
+    />
+
+    <h2 id="*">course one #3</h2>
+
+    <ul>
+      <li>price: $12</li>
+      <li>plus beverage: $15</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>choice of</th>
+          <th>:</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <p>
+      <strong>
+        red wine pached pears with vanilla marscapone or desert crepes with
+        rasberry compote and tepered chocolate shards or strawberry basil sorbet
+      </strong>
+    </p>
+    <img
+      src="https://nadialim.com/wp-content/uploads/2020/08/sticky-red-wine-pears-820x820.jpg"
+      width="240"
+    />
+    <img
+      src="https://www.theflavorbender.com/wp-content/uploads/2021/01/Chocolate-Crepes-0611.jpg"
+      width="240"
+    />
+    <img
+      src="https://www.chillbycaro.com/wp-content/uploads/2024/08/IMG_9744-scaled.jpg"
+      width="240"
+    />
+
+    <table>
+      <thead>
+        <tr>
+          <th>choice of drink:</th>
+        </tr>
+        <tr>
+          <th>blueberry lime mojito</th>
+          <td>$3</td>
+        </tr>
+        
+        <tr>
+          <th>espresso martini</th>
+          <td>$3</td>
+        </tr>
+        <tr>
+          <th>Raspberry daiquiri</th>
+          <td>$3</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h2>
+      chef information: <br />
+      Chef Avery Wernicki graduated from
+      <a href="https://www.ciachef.edu/">
+        the cullinary institute of america.</a
+      >
+      and his contact information includes his email at
+      <a
+        href="https://login.yahoo.com/?.src=ym&lang=en-US&done=https%3A%2F%2Fmail.yahoo.com%2F%3Fguce_referrer%3DaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%26guce_referrer_sig%3DAQAAAMciuVkYaxX26YM3i2kiu16v8gd7OZ2seu2F_mYapRnIkpM6L6Dxv2taJ8P9MxcZ0Az22c5roR_zSkPHSYYzgtqIb0WNd9yKa5jrFsVe1j9AkUtY3M9aDnwT-mCIUMLXIduEtTB1ZhHCDWWCT_jkgYrky4dHHveNQhO4Q-T_o-Rl"
+        >insert email here.</a
+      >
+      for any questions and concerns over event and venue catering. :)
+    </h2>
+  </body>
 </html>
